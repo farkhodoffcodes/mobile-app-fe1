@@ -9,7 +9,6 @@ const App = () => {
         salom
         <img src="../assets/image/small.svg" alt="rasm" />
         <Header/>
-        <Main/>
       </div>
     </div>
   )
