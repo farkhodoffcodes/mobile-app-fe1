@@ -1,22 +1,20 @@
-import React from 'react'
-import Header from './companents/Header'
-import Main from './companents/Main'
-import Page1 from './companents/Page1'
-import Page5075 from './companents/Page5075'
+import React from "react";
+import Page01 from "./components/Pages0125/Page01";
+import Page02 from "./components/Pages0125/Page02";
+import Page151 from "./components/Pages151175/Page151"
+// import { BrowserRouter, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
+    <>
       <div className="container">
-        salom
-        <img src="../assets/image/small.svg" alt="rasm" />
-        <Header/>
-        <Main/>
-        <Page1/>
-        <Page5075/>
+        <Page01 />
+        <Page02/>
+        <Page151/>
       </div>
-    </div>
+    </>
   )
-}
+};
 
-export default App
+
+export default App;
