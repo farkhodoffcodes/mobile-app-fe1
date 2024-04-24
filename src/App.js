@@ -11,10 +11,10 @@ const App = () => {
       <div className="container">
         <Routes>
           <Route path="/" element={() => "First Page"} />
-          <Route path="/page/1" element={<Page01 />} />
-          <Route path="/page/2" element={<Page02 />} />
-          <Route path="/page/151" element={<Page151 />} />
-          <Route path="/page/152" element={<Page152 />} />
+          <Route path="/page01" element={<Page01 />} />
+          <Route path="/page022" element={<Page02 />} />
+          <Route path="/page151" element={<Page151 />} />
+          <Route path="/page152" element={<Page152 />} />
         </Routes>
       </div>
     </>
