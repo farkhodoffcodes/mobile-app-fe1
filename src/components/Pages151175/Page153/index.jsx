@@ -9,7 +9,7 @@ const index = () => {
         <div className='page-bg'>
           <header>
               <button>
-                  <img src="../assets/image/arrow-back.svg" alt="back" /> 
+                  <img src="../assets/image/back-blck.svg" alt="back" /> 
               </button>
               <p>FILTER CLASSES</p>
           </header>
@@ -74,7 +74,7 @@ const index = () => {
                 </div>
               </div>
               <div className='green-row'>
-                <p>Wrap up</p>
+                <p>Wrap up & end workout</p>
                 <span>30s</span>
               </div>
           </main>
@@ -82,12 +82,11 @@ const index = () => {
           
     </Container>
     </>
-    
   )
 }
 
 const Container = styled.div`
-    background-color: #000;
+
     border-radius: 30px;
     font-weight: 400;
     font-family: "Ibarra Real Nova", serif;
@@ -96,10 +95,7 @@ const Container = styled.div`
 
     a{
       text-decoration: none;
-    }
-
-    p, span{
-      color: #fff;
+      color: #000;
     }
 
     button{
@@ -111,14 +107,15 @@ const Container = styled.div`
       gap: 20px;
       padding: 30px 20px;
       p{
-      color: #fff;
+
       font-size: 14px;
       font-weight: 600;
       }
     }
     main{
       p{
-          font-size: 16px;
+          font-size: 18px;
+          font-weight: bold;
         }
       span{
           font-size: 14px;
@@ -126,29 +123,36 @@ const Container = styled.div`
       .grey-row{
         display: flex;
         justify-content: space-between;
-        background-color: #525252;
-        padding: 15px;
+        background-color: #F2F2F2;
+        padding: 12px;
         
       }
       .drop-menu{
           ul{
+            margin: 0;
+            padding: 0;
             li{
               display: flex;
               justify-content: space-between;
-              padding: 20px 20px 20px 0px;
-              color: #fff;
+              padding: 20px 12px;
+              border-bottom: 1px solid #525252;
+
               p{
                 font-size: 14px;
               }
             }
+            li:last-child{
+                border: none;
+            }
           }
         }
       .green-row{
-        background-color: #3A595D;
-        padding: 15px;
+        background-color: #B882D9;
+        padding: 12px;
+        color: #F2F2F2;
+        
       }
     }
 `
-
 
 export default index
