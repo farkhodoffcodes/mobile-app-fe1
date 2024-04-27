@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components'
+
 
 
 const Index = () => {
@@ -63,13 +65,15 @@ const Index = () => {
                     <p>Music</p>
                     <button><img src="../assets/image/arrow_down.svg" alt="arrow" /></button>
                 </div>
+                
+                <Link to='/page152'>
                 <button className='bottom-btn'>Show all results</button>
+                </Link>
             </main>
         </div>
     </Container>
     </>
      
-    
   )
 }
 
