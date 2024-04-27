@@ -18,7 +18,6 @@ const App = () => {
           <Route path="/page01" element={<Page01 />} />
           <Route path="/page02" element={<Page02 />} />
           <Route path="/page03" element={<Page03 />} />
-          <Route path="/page03" element={<Page03 />} />
           <Route path="/page76" element={<Page76 />} />
           <Route path="/page77" element={<Page77 />} />
           <Route path="/page151" element={<Page151 />} />
