@@ -1,16 +1,16 @@
 import React from "react";
-import Page01 from "./components/Pages0125/Page01";
-import Page02 from "./components/Pages0125/Page02";
-import Page151 from "./components/Pages151175/Page151"
+import Page26 from "./components/Pages2650/Page26";
+import Page27 from "./components/Pages2650/Page27";
+import Page28 from "./components/Pages2650/Page28";
 // import { BrowserRouter, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <>
       <div className="container">
-        <Page01 />
-        <Page02/>
-        <Page151/>
+       <Page26/>
+       <Page27/>
+       <Page28/>
       </div>
     </>
   )
