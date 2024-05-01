@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Page76/page76.css'
+import './page76.css'
 
 const index = () => {
   return (
