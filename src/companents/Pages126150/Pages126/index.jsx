@@ -135,6 +135,20 @@ const Page01 = styled.div`
             
           }
 
+          .search-input:hover{
+            cursor: pointer;
+        }
+
+          .search-input::before {
+            content: "Qo'shimcha matn"; 
+            position: absolute;
+            left: 5px; 
+            top: 50%; 
+            transform: translateY(-50%); 
+            color: #999; 
+            font-size: 14px; 
+        }
+
           i{
             position:absolute;
             left:15px;
@@ -208,9 +222,20 @@ const Page01 = styled.div`
               border: 2px solid #ffff;
               font-size: 14px;
               border-radius: 20px;
-              
               margin-left: 10px;
             }
+
+        
+          
+          .Contact--btn:hover {
+              background-color: #fff;
+              color: #000;
+              border: none;
+          }
+          
+          .Contact--btn:active {
+              background-color: #0000;
+          }
 
             .Contact--iteam-ol{
               display: flex;
@@ -219,16 +244,26 @@ const Page01 = styled.div`
 
              .Contact--iteam-list{
               border: 2px solid #A8A8A8;
-              width: 174px;
+              width: 168px;
               height: 228px;
               border-radius:15px;
               margin-left: -28px;
               margin-top: 20px;
              }
 
+             .Contact--iteam-list:hover{
+              cursor: pointer;
+              transform: scale(0.9);
+             }
+
+             .Contact--iteam-list1:hover{
+              cursor: pointer;
+              transform: scale(0.9);
+             }
+
              .Contact--iteam-list1{
               border: 2px solid #A8A8A8;
-              width: 174px;
+              width: 170px;
               height: 125px;
               border-radius:15px;
               border-bottom-right-radius: 0px;
@@ -251,6 +286,18 @@ const Page01 = styled.div`
               margin-top: 20px;
               margin-bottom: 15px;
               font-size: 16px;
+            }
+
+            .see--all:hover{
+              width: 100px;
+              height: 30px;
+              color: #000;
+              background-color: #fff;
+              border: 2px solid #3333;
+              border-radius: 10px;
+              align-items: center;
+              margin-left: 130px;
+              padding-top: 10px;
             }
 
             .Contact-half{
