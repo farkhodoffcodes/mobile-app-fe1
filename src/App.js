@@ -19,6 +19,8 @@ import Page153 from './companents/Pages151175/Page153'
 import Pages126 from './companents/Pages126150/Pages126'
 import Pages127 from './companents/Pages126150/Pages127'
 import Pages128 from './companents/Pages126150/Pages128'
+import Pages129 from './companents/Pages126150/Pages129'
+import Pages130 from './companents/Pages126150/Pages130'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -46,6 +48,8 @@ const App = () => {
           <Route path='/page126' element={<Pages126/>}/>
           <Route path='/page127' element={<Pages127/>}/>
           <Route path='/page128' element={<Pages128/>}/>
+          <Route path='/page129' element={<Pages129/>}/>
+          <Route path='/page130' element={<Pages130/>}/>
         </Routes>
       </BrowserRouter>
     </div>
