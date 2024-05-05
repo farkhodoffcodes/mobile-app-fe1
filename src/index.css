@@ -10,6 +10,11 @@
   margin: 0 auto;
 }
 
+ol, 
+ul{
+  list-style: none;
+}
+
 /* PAGE 26 - 50 START */
 .wrapper-page-26 {
   background-image: url(../public/assets/image/bc-fon.svg);
