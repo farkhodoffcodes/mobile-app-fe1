@@ -5,6 +5,7 @@ import Page03 from './companents/Page0125/Page03'
 import Page04 from './companents/Page0125/Page04'
 import Page05 from './companents/Page0125/Page05'
 import Page06 from './companents/Page0125/Page06'
+import Page07 from './companents/Page0125/Page07'
 import Page26 from './companents/Page2650/Page26'
 import Page27 from './companents/Page2650/Page27'
 import Page28 from './companents/Page2650/Page28'
@@ -34,6 +35,7 @@ const App = () => {
           <Route path='/page04' element={<Page04/>}/>
           <Route path='/page05' element={<Page05/>}/>
           <Route path='/page06' element={<Page06/>}/>
+          <Route path='/page07' element={<Page07/>}/>
           <Route path='/page26' element={<Page26/>}/>
           <Route path='/page27' element={<Page27/>}/>
           <Route path='/page28' element={<Page28/>}/>
