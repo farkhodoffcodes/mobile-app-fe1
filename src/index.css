@@ -13,6 +13,12 @@
 ol, 
 ul{
   list-style: none;
+  padding:0;
+}
+
+a,
+ins{
+  text-decoration: none;
 }
 
 /* PAGE 26 - 50 START */

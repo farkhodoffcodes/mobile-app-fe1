@@ -1,291 +1,192 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 
-const Page06 = () => {
+const Page05 = () => {
   return (
     <div>
-      <Page6>
-        <section className='page06'> 
-            <div className="page06-container">
-                <div className="page06-top">
+      <Page5>
+        <section className="page05">
+          <div className="page05-container">
+            <div className="page05-top">
+              <i class="fa-solid fa-chevron-left"></i>
+              <h2 className="page05-top-heading">Therapist</h2>
+              <i class="fa-solid fa-filter"></i>
+            </div>
 
-                    <div className="page06-top-left">
-                        <h2 className="page06-top-heading">Hi, John</h2>
-                        <p className="page06-top-date">Jun 24th, 2021</p>
-                    </div>
-                    <i class="fa-solid fa-bell"></i>
+            <Splide aria-label="My Favorite Images">
+              <SplideSlide>
+                <img className="slider-img" src="https://t3.ftcdn.net/jpg/05/85/86/44/360_F_585864419_kgIYUcDQ0yiLOCo1aRjeu7kRxndcoitz.jpg" alt="Image 1" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className="slider-img" src="https://t3.ftcdn.net/jpg/05/85/86/44/360_F_585864419_kgIYUcDQ0yiLOCo1aRjeu7kRxndcoitz.jpg" alt="Image 2" />
+              </SplideSlide>  
+            </Splide>
 
-                </div>
+            <div className="page05-main">
+              <div className="page05-main-top">
+                <h3 className="page05-main-top-heading1">Nearby Therapists</h3>
+                <h3 className="page05-main-top-heading2">See more</h3>
+              </div>
+              <ol className="page05-main-list">
+                <li className="page05-main-list-item">
+                  <div className="page05-main-item-left"></div>
+                  <div className="page05-main-item-right">
+                    <h3 className="page05-main-item-right-heading">Dr. John Doe</h3>
+                    <p className="page05-main-item-right-desc">CUHK Medical Centre</p>
+                    <span className="page05-main-item-right-view">
+                      <span className="star-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                        4.8
+                      </span>
+                      <span className="reviews">(156 reviews)</span>
+                    </span>
+                  </div>
+                </li>
 
-                <form className='search'>
-                    <input className='search-input' type="search"  placeholder='Search...'/>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </form>
+                <li className="page05-main-list-item">
+                  <div className="page05-main-item-left"></div>
+                  <div className="page05-main-item-right">
+                    <h3 className="page05-main-item-right-heading">Dr. John Doe</h3>
+                    <p className="page05-main-item-right-desc">CUHK Medical Centre</p>
+                    <span className="page05-main-item-right-view">
+                      <span className="star-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                        4.8
+                      </span>
+                      <span className="reviews">(156 reviews)</span>
+                    </span>
+                  </div>
+                </li>
 
-                <div className="happy-wrapper">
-                    <div className="happy-top">
-                        <h3 className="happy-top-heading">How do you feel today?</h3>
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </div>
-
-                    <ol className="happy-list">
-                        <li className="happy-list-item">
-                            <span><p>😄</p></span>
-                            <p className="happy-list-item-desc">Happy #1</p>
-                        </li>
-
-                        <li className="happy-list-item">
-                            <span><p>😆</p></span>
-                            <p className="happy-list-item-desc">Happy #1</p>
-                        </li>
-
-                        <li className="happy-list-item">
-                            <span><p>😊</p></span>
-                            <p className="happy-list-item-desc">Happy #1</p>
-                        </li>
-
-                        <li className="happy-list-item">
-                            <span><p>😊</p></span>
-                            <p className="happy-list-item-desc">Happy #1</p>
-                        </li>
-                    </ol>
-                </div>
-                </div>
-
-                <div className="excercises">
-                    <div className="page06-container">
-                    <div className="excercises-top">
-                        <h2 className="excercises-top-heading">Excercises</h2>
-                        <i class="fa-solid fa-ellipsis"></i>
-                    </div>
-
-                    <ol className="excercises-list">
-                        <li className="excercises-list-item">
-                            <div className="excercises-list-item-left"></div>
-                            <div className="excercises-list-item-right">
-                                <h3 className="excercises-list-item-heading">Excercise #1</h3>
-                                <p className="excercises-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </li>
-
-                        <li className="excercises-list-item">
-                            <div className="excercises-list-item-left"></div>
-                            <div className="excercises-list-item-right">
-                                <h3 className="excercises-list-item-heading">Excercise #1</h3>
-                                <p className="excercises-list-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </li>
-                    </ol>
-                    </div>
-                </div>
-
-                <footer className='footer'>
-                    <div className="page06-container">
-                        <i class="fa-solid fa-circle-pause"></i>
-                        <i class="fa-solid fa-wifi"></i>
-                        <i class="fa-solid fa-wifi"></i>
-                        <i class="fa-solid fa-address-book"></i>
-                    </div>
-                </footer>
-            {/* </div> */}
+                <li className="page05-main-list-item">
+                  <div className="page05-main-item-left"></div>
+                  <div className="page05-main-item-right">
+                    <h3 className="page05-main-item-right-heading">Dr. John Doe</h3>
+                    <p className="page05-main-item-right-desc">CUHK Medical Centre</p>
+                    <span className="page05-main-item-right-view">
+                      <span className="star-wrapper">
+                        <i class="fa-solid fa-star"></i>
+                        4.8
+                      </span>
+                      <span className="reviews">(156 reviews)</span>
+                    </span>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
         </section>
-      </Page6>
+      </Page5>
     </div>
-  )
-}
+  );
+};
 
-const Page6 = styled.div`
-    .page06{
-        width:100%;
-        height:auto;
-        border:5px solid #000;
-        border-radius:30px;
-        .page06-container{
-            width:343px;
-            margin:0 auto;
+const Page5 = styled.div`
+  .page05 {
+    width: 100%;
+    height: auto;
+    border: 5px solid #000;
+    border-radius: 30px;
+    padding-top: 37px;
+    padding-bottom: 32px;
+    .page05-container {
+      width: 343px;
+      margin: 0 auto;
+    }
+  }
 
-            .page06-top{
-                display:flex;
-                align-items:center;
-                justify-content:space-between;
-                margin-top:39px;
-                margin-bottom:25px;
+  .page05-top{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
 
-                .page06-top-heading{
-                    color:#000;
-                    font-size:20px;
-                    line-height:22px;
-                }
+      .page05-heading{
+        font-size:16px;
+        line-height:20px;
+        color:#000;
+      }
+  }
 
-                .page06-top-date{
-                    font-size:16px;
-                    line-height:24px;
-                    color:#000;
-                }
+  .slider-img{
+    width:248px;
+    height:170px;
+    border-radius:16px;
+    background-color:#ababab;
+  }
 
-                i{
-                    font-size:30px;
-                }
+  .page05-main{
+    .page05-main-top{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:31px;
+        .page05-main-top-heading1{
+          font-size:16px;
+          line-height:20px;
+        }
+
+        .page05-main-top-heading2{
+          font-size:14px;
+          line-height:18px;
+          cursor:pointer;
+        }
+    }
+  }
+
+  .page05-main-list{
+    padding:0px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    gap:22px;
+    .page05-main-list-item{
+      display:flex;
+      align-items:center;
+      gap:15px;
+
+        .page05-main-item-left{
+          width:125px;
+          height:125px;
+          border-radius:8px;
+          background-color:#d0d0d0;
+        }
+
+        .page05-main-item-right-heading{
+          font-size:16px;
+          line-height:20px;
+          color:#000;
+        }
+
+        .page05-main-item-right-desc{
+          font-size:14px;
+          line-height:18px;
+          color:#000;
+          margin-bottom:8px;
+          margin-top:8px;
+        }
+
+        .page05-main-item-right-view{
+          display:flex;
+          align-items:center;
+          gap:16px;
+
+            .star-wrapper{
+              display:flex;
+              align-items:center;
+              gap:2px;
             }
 
-
-            .search{
-                position:relative;
-                margin-bottom:31px;
-                .search-input{
-                    width:342px;
-                    height:55px;
-                    border-radius:8px;
-                    background-color:#d0d0d0;
-                    border:none;
-                    padding-left:41px;
-                    font-size:14px;
-                    line-height:18px;
-                    color:#525252;
-                    padding-right:20px;
-                }
-
-                i{
-                    position:absolute;
-                    left:15px;
-                    top:19px;
-                }
-            }
-
-            .happy-wrapper{
-                .happy-top{
-                    display:flex;
-                    align-items:center;
-                    justify-content:space-between;
-                    margin-bottom:28px;
-
-                        .happy-top-heading{
-                            font-size:14px;
-                            line-height:18px;
-                            color:#000;
-
-                        }
-                }
-
-                .happy-list{
-                    padding:0px;
-                    display:flex;
-                    align-items:center;
-                    justify-content:space-between;
-                    margin-bottom:41px;
-                    .happy-list-item{
-                        span{
-                            width:50px;
-                            height:50px;
-                            border-radius:8px;
-                            background-color:#d0d0d0;
-                            display:block;
-                            display:flex;
-                            justify-content:center;
-                            align-items:center;
-                            margin-bottom:8px;
-
-
-                                p{
-                                    font-size:30px;
-                                }
-                        }
-
-                        .happy-list-item-desc{
-                            font-size:12px;
-                            line-height:16px;
-                            color:#000;
-                        }
-                    }
-                }
-            }
-
-
+            .reviews{
+              font-size:14px;
+              line-height:18px;
+              color:#000;
+              font-weight:bold;
             }
         }
     }
+  }
+`;
 
-    .excercises{
-        width:100%;
-        height:auto;
-        background-color:#f4f4f4;
-        border-radius:30px;
-        border-bottom-left-radius:0px;
-        border-bottom-right-radius:0px;
-
-        padding-top:50px;
-
-        .excercises-top{
-            display:flex;
-            align-items:center;
-            justify-content:space-between;
-            margin-bottom:25px;
-
-            .excercises-top-heading{
-                font-size:14px;
-                line-height:18px;
-                color:#000;
-            }
-        }
-
-        .excercises-list{
-            padding:0px;
-            display:flex;
-            align-items:center;
-            flex-direction:column;
-            gap:18px;
-            .excercises-list-item{
-                width:341px;
-                height:92px;
-                border-radius:8px;
-                border:1px solid #262626;
-                display:flex;
-                align-items:center;
-                gap:10px;
-                                
-                .excercises-list-item-left{
-                    width:78px;
-                    height:58px;
-                    border-radius:8px;
-                    background-color:#262626;
-                    margin-left:19px;
-
-                    .excercises-list-item-heading{
-                        font-size:14px;
-                        line-height:18px;
-                        color:red;
-                    }
-
-                }
-
-                .excercises-list-item-heading{
-                    font-size:14px;
-                    line-height:18px;
-                    color:#000;
-                }
-
-                .excercises-list-item-desc{
-                    font-size:12px;
-                    line-height:16px;
-                    color:#000;
-                }
-            }
-        }}
-
-        .footer{
-            width:100%;
-            display:flex;
-            height:100px;
-            background-color:#fff;
-            border-bottom-left-radius:30px;
-            border-bottom-right-radius:30px;
-            .page06-container{
-                width:100%;
-                display:flex;
-                align-items:center;
-                justify-content:space-between;
-            }
-        }
-`
-
-export default Page06
+export default Page05;
